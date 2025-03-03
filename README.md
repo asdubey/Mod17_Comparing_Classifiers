@@ -6,6 +6,8 @@ This overall ask in this excercise is to compare the performance of different cl
 
 ### Business Understanding
 
+The objective of this project is to help the Portuguese banking institute to run a successful marketing campaign. Help them predict the customer conversion chances accurately, i.e. predict what are the chances that customer will subscribe to a long-term deposit. This will help them optimize their campaigns which will help with bussiness growth.
+
 ### Model Performance Summary
 |Model	|Train Time	|Train Accuracy	|Test Accuracy	|Precision	|Recall	|F1	|AUC|
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -13,7 +15,7 @@ This overall ask in this excercise is to compare the performance of different cl
 |Decision Trees	|12.349532	|0.930160	|0.910386	|0.607547	|0.578305	|0.592565	|0.929184|
 |KNN	|59.759074	|1.000000	|0.903020	|0.639769	|0.318966	|0.425695	|0.903716|
 
-### Summary
+### Conclusion
 
 **Logistic Regression:**
 The logistic regression offeres a best AUC score of 93%. Accuracy is much lower when compred to decision tree. Training time was more than double of DT. 
